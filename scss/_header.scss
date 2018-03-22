@@ -1,9 +1,10 @@
 /* CSS code for the Header section. */
 .jumbotron {
-    background: url('http://eleven50.wpengine.com/wp-content/uploads/2017/03/Learning-to-Code5.png?id=21797') no-repeat center center;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background-image: url(../assets/logo/bae.jpg)
+    background-image: url(../assets/img/marble4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .jumbotron-heading {
@@ -14,8 +15,11 @@
 
 .jumbotron .container {
     max-width: 60rem;
-    color: white;
+    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
+.btn btn-primary {
+    background-color: pink;
+}
 

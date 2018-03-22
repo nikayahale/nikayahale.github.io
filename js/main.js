@@ -14,7 +14,7 @@ jQuery(document).ready(function ($) {
     https://codepen.io/dimsemenov/pen/hutrb
     -------------------*/
     $('.with-caption').magnificPopup({
-        type: 'image',
+        type: 'link',
         closeBtnInside: false,
         mainClass: 'mfp-with-zoom mfp-img-mobile',
 

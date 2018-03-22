@@ -5,8 +5,7 @@ Body Section
 ****************************/
 body {
   padding: 15px;
-  background: url("http://eleven50.wpengine.com/wp-content/uploads/2017/03/Learning-to-Code5.png?id=21797") no-repeat center center;
-  background-image: url(../assets/logo/sky.jpeg); }
+  background-color: white; }
 
 header {
   text-align: center; }
@@ -55,10 +54,11 @@ Navbar Section
 
 /* CSS code for the Header section. */
 .jumbotron {
-  background: url("http://eleven50.wpengine.com/wp-content/uploads/2017/03/Learning-to-Code5.png?id=21797") no-repeat center center;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background-image: url(../assets/logo/bae.jpg); }
+  background-image: url(../assets/img/marble4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .jumbotron-heading {
   padding-top: 50px;
@@ -67,8 +67,11 @@ Navbar Section
 
 .jumbotron .container {
   max-width: 60rem;
-  color: white;
+  color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.btn btn-primary {
+  background-color: pink; }
 
 /* ------------------------------
 Portfolio Section
@@ -139,7 +142,7 @@ Portfolio Section
 About Section
 ****************************/
 #about {
-  background-color: #dad6d6;
+  background-color: white;
   font-size: 18px; }
 
 .about-panel {
@@ -176,9 +179,9 @@ About Section
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: rgba(161, 31, 31, 0.747);
+  background-color: lightgray;
   font-size: 18px;
-  color: #75f390; }
+  color: #8a4f45; }
 
 footer p {
   margin-bottom: .25rem; }
